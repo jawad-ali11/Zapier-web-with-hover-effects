@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./task4.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="top-portion-flex">
+        <div class="top-heading1-flex">
+            <div class="hamberger-flex">
+                <svg class="hamberger-size" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6H4V8H20V6Z" fill="#2D2E2E"></path><path d="M20 11H4V13H20V11Z" fill="#2D2E2E"></path><path d="M20 16H4V18H20V16Z" fill="#2D2E2E"></path></svg>
+            </div>
+            <div class="zapier-logo">
+                <svg class="zapier-size" width="105" height="28" data-testid="ZapierLogo" viewBox="0 0 244 66" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" class="css-tyvwmd-ZapierLogo">
+                    <path
+                        d="M57.1877 45.2253L57.1534 45.1166L78.809 25.2914V15.7391H44.0663V25.2914H64.8181L64.8524 25.3829L43.4084 45.2253V54.7775H79.1579V45.2253H57.1877Z"
+                        fill="#201515"></path>
+                    <path
+                        d="M100.487 14.8297C96.4797 14.8297 93.2136 15.434 90.6892 16.6429C88.3376 17.6963 86.3568 19.4321 85.0036 21.6249C83.7091 23.8321 82.8962 26.2883 82.6184 28.832L93.1602 30.3135C93.5415 28.0674 94.3042 26.4754 95.4482 25.5373C96.7486 24.5562 98.3511 24.0605 99.9783 24.136C102.118 24.136 103.67 24.7079 104.634 25.8519C105.59 26.9959 106.076 28.5803 106.076 30.6681V31.7091H95.9401C90.7807 31.7091 87.0742 32.8531 84.8206 35.1411C82.5669 37.429 81.442 40.4492 81.4458 44.2014C81.4458 48.0452 82.5707 50.9052 84.8206 52.7813C87.0704 54.6574 89.8999 55.5897 93.3089 55.5783C97.5379 55.5783 100.791 54.1235 103.067 51.214C104.412 49.426 105.372 47.3793 105.887 45.2024H106.27L107.723 54.7546H117.275V30.5651C117.275 25.5659 115.958 21.6936 113.323 18.948C110.688 16.2024 106.409 14.8297 100.487 14.8297ZM103.828 44.6475C102.312 45.9116 100.327 46.5408 97.8562 46.5408C95.8199 46.5408 94.4052 46.1843 93.6121 45.4712C93.2256 45.1338 92.9182 44.7155 92.7116 44.246C92.505 43.7764 92.4043 43.2671 92.4166 42.7543C92.3941 42.2706 92.4702 41.7874 92.6403 41.3341C92.8104 40.8808 93.071 40.4668 93.4062 40.1174C93.7687 39.7774 94.1964 39.5145 94.6633 39.3444C95.1303 39.1743 95.6269 39.1006 96.1231 39.1278H106.093V39.7856C106.113 40.7154 105.919 41.6374 105.527 42.4804C105.134 43.3234 104.553 44.0649 103.828 44.6475Z"
+                        fill="#201515"></path>
+                    <path d="M175.035 15.7391H163.75V54.7833H175.035V15.7391Z" fill="#201515"></path>
+                    <path
+                        d="M241.666 15.7391C238.478 15.7391 235.965 16.864 234.127 19.1139C232.808 20.7307 231.805 23.1197 231.119 26.2809H230.787L229.311 15.7391H219.673V54.7775H230.959V34.7578C230.959 32.2335 231.55 30.2982 232.732 28.9521C233.914 27.606 236.095 26.933 239.275 26.933H243.559V15.7391H241.666Z"
+                        fill="#201515"></path>
+                    <path
+                        d="M208.473 17.0147C205.839 15.4474 202.515 14.6657 198.504 14.6695C192.189 14.6695 187.247 16.4675 183.678 20.0634C180.108 23.6593 178.324 28.6166 178.324 34.9352C178.233 38.7553 179.067 42.5407 180.755 45.9689C182.3 49.0238 184.706 51.5592 187.676 53.2618C190.665 54.9892 194.221 55.8548 198.344 55.8586C201.909 55.8586 204.887 55.3095 207.278 54.2113C209.526 53.225 211.483 51.6791 212.964 49.7211C214.373 47.7991 215.42 45.6359 216.052 43.3377L206.329 40.615C205.919 42.1094 205.131 43.4728 204.041 44.5732C202.942 45.6714 201.102 46.2206 198.521 46.2206C195.451 46.2206 193.163 45.3416 191.657 43.5837C190.564 42.3139 189.878 40.5006 189.575 38.1498H216.201C216.31 37.0515 216.367 36.1306 216.367 35.387V32.9561C216.431 29.6903 215.757 26.4522 214.394 23.4839C213.118 20.7799 211.054 18.5248 208.473 17.0147ZM198.178 23.9758C202.754 23.9758 205.348 26.2275 205.962 30.731H189.775C190.032 29.2284 190.655 27.8121 191.588 26.607C193.072 24.8491 195.268 23.972 198.178 23.9758Z"
+                        fill="#201515"></path>
+                    <path
+                        d="M169.515 0.00366253C168.666 -0.0252113 167.82 0.116874 167.027 0.421484C166.234 0.726094 165.511 1.187 164.899 1.77682C164.297 2.3723 163.824 3.08658 163.512 3.87431C163.2 4.66204 163.055 5.50601 163.086 6.35275C163.056 7.20497 163.201 8.05433 163.514 8.84781C163.826 9.64129 164.299 10.3619 164.902 10.9646C165.505 11.5673 166.226 12.0392 167.02 12.3509C167.814 12.6626 168.663 12.8074 169.515 12.7762C170.362 12.8082 171.206 12.6635 171.994 12.3514C172.782 12.0392 173.496 11.5664 174.091 10.963C174.682 10.3534 175.142 9.63077 175.446 8.83849C175.75 8.04621 175.89 7.20067 175.859 6.35275C175.898 5.50985 175.761 4.66806 175.456 3.88115C175.151 3.09424 174.686 2.37951 174.09 1.78258C173.493 1.18565 172.779 0.719644 171.992 0.414327C171.206 0.109011 170.364 -0.0288946 169.521 0.00938803L169.515 0.00366253Z"
+                        fill="#201515"></path>
+                    <path
+                        d="M146.201 14.6695C142.357 14.6695 139.268 15.8764 136.935 18.2902C135.207 20.0786 133.939 22.7479 133.131 26.2981H132.771L131.295 15.7563H121.657V66H132.942V45.3054H133.354C133.698 46.6852 134.181 48.0267 134.795 49.3093C135.75 51.3986 137.316 53.1496 139.286 54.3314C141.328 55.446 143.629 56.0005 145.955 55.9387C150.68 55.9387 154.277 54.0988 156.748 50.419C159.219 46.7392 160.455 41.6046 160.455 35.0153C160.455 28.6509 159.259 23.6689 156.869 20.0691C154.478 16.4694 150.922 14.6695 146.201 14.6695ZM147.345 42.9602C146.029 44.8668 143.97 45.8201 141.167 45.8201C140.012 45.8735 138.86 45.6507 137.808 45.1703C136.755 44.6898 135.832 43.9656 135.116 43.0574C133.655 41.2233 132.927 38.7122 132.931 35.5243V34.7807C132.931 31.5432 133.659 29.0646 135.116 27.3448C136.572 25.625 138.59 24.7747 141.167 24.7937C144.02 24.7937 146.092 25.6994 147.385 27.5107C148.678 29.322 149.324 31.8483 149.324 35.0896C149.332 38.4414 148.676 41.065 147.356 42.9602H147.345Z"
+                        fill="#201515"></path>
+                    <path d="M39.0441 45.2253H0V54.789H39.0441V45.2253Z" fill="#FF4F00"></path>
+                </svg>
+            </div>
+            <div class="products-flex">
+                <p class="products">
+                    Products
+                </p>
+                <div class="top-headind-arrow">
+                    <svg class="down-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 17.2999L19 11.4399V8.81995L12 14.6999L5 8.81995V11.4399L12 17.2999Z"
+                            fill="#2D2E2E"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="products-flex">
+                <p class="products">
+                    Solutions
+                </p>
+                <div class="top-headind-arrow">
+                    <svg class="down-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 17.2999L19 11.4399V8.81995L12 14.6999L5 8.81995V11.4399L12 17.2999Z"
+                            fill="#2D2E2E"></path>
+                    </svg>
+
+                </div>
+            </div>
+            <div class="products-flex">
+                <p class="products">
+                    Resources & Support
+                </p>
+                <div class="top-headind-arrow">
+                    <svg class="down-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 17.2999L19 11.4399V8.81995L12 14.6999L5 8.81995V11.4399L12 17.2999Z"
+                            fill="#2D2E2E"></path>
+                    </svg>
+                </div>
+            </div>
+            <div>
+                <p class="products">
+                    Pricing
+                </p>
+            </div>
+        </div>
+
+        <div class="top-heading2-flex">
+            <div class="search-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.13405 17.4518L2.2915 20.2943L3.7057 21.7085L6.54825 18.866L5.13405 17.4518Z"
+                        fill="#2D2E2E"></path>
+                    <path
+                        d="M13 3C8.59 3 5 6.59 5 11C5 14.75 7.98 19 13 19C17.41 19 21 15.41 21 11C21 6.59 17.41 3 13 3ZM13 17C9.2 17 7 13.79 7 11C7 7.69 9.69 5 13 5C16.31 5 19 7.69 19 11C19 14.31 16.31 17 13 17Z"
+                        fill="#2D2E2E"></path>
+                </svg>
+            </div>
+            <div>
+                <p  class="contact-sales">
+                    Contacts Sales
+                </p>
+            </div>
+            <div>
+                <p   class="contact-sales">
+                    Log in
+                </p>
+            </div>
+            <div class="button-padding">
+                <button  class="header-button">
+                    Sign up
+                </button>
+            </div>
+        </div>
+    </div>
+                        <hr class="line-below-700">
+         
+    <div class="heading-vedio-flex">
+    <div class="heading-pg-portion">
+        <hr class="horizental-line">
+        <div class="main-heading-padding">
+            <p class="main-heading-line1">
+                   Automate your
+            </p>
+            <p class="main-heading-line2">
+                possibilities
+            </p>
+        </div>
+        <div >
+            <p class="main-heading-paragraph">
+                Zapier empowers you to automate <br class="new-line1">
+                 your work <br class="new-line3"> across 5,000+ apps—so <br class="new-line2">
+                  you can move <br class="new-line5"> forward, <br class="new-line4"> faster.
+            </p>
+            <div class="buttons-flex">
+                <div>
+                  <button class="get-started-button">
+                        Get started free
+                  </button>
+               </div>
+               <div class="buttons-gap">
+                   <button class="contact-button">
+                       Contact Sales
+                   </button>
+               </div>
+            </div>
+        </div>
+    </div>
+        
+        <div class="vedio-box">
+                <div class="vedio-center">
+                    <video class="vedio-size" autoplay="" controlslist="nodownload noplaybackrate" data-testid="video" disablepictureinpicture="" disableremoteplayback="" muted="" playsinline="" preload="auto" src="https://res.cloudinary.com/zapier-media/video/upload/q_auto/f_auto/v1670943607/Homepage/videos/Homepage_01_Hero_1360x1360_cit45t.mp4" title="automation that scales" class="css-x794wr-Video__video"></video>
+                </div>
+                <div class="vedio-text-flex">
+                    <div>
+                        <p class="Yongjoon-text">
+                            Yongjoon Kim, Design Systems Manager at Cottage
+                        </p>
+                    </div>
+                    <div class="arrow-top">
+                        <svg fill="currentColor" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><path d="M10.586 2H1V0h13v13h-2V3.414L1.707 13.707.293 12.293 10.586 2Z"></path></svg>
+                    </div>
+                </div>
+        </div>
+   
+    </div>
+   
+                             <div class="trusted-flex">
+                                <p class="trusted-text">
+                                    Trusted at companies large and small
+                                </p>
+                             </div>
+        <div class="logos-flex">
+            <div>
+                <img  class="css-1qgv5r7-Img" height="34" alt="Slack" data-testid="img" loading="lazy" src="https://res.cloudinary.com/zapier-media/image/upload/q_auto/f_auto/v1658927191/Company%20logos/logo-slack.png" width="111" style="width:111px;height:34px;border-radius:0">
+            </div>
+            <div>
+                <img class="css-1qgv5r7-Img" height="22" alt="Meta" data-testid="img" loading="lazy" src="https://res.cloudinary.com/zapier-media/image/upload/q_auto/f_auto/v1658927512/Company%20logos/Meta.svg" width="105" style="width:105px;height:22px;border-radius:0">
+            </div>
+            <div>
+                <img class="css-1qgv5r7-Img" height="30" alt="Shopify" data-testid="img" loading="lazy" src="https://res.cloudinary.com/zapier-media/image/upload/q_auto/f_auto/v1658927536/Company%20logos/Shopify.svg" width="105" style="width:105px;height:30px;border-radius:0">
+            </div>
+            <div>
+                <img class="css-1qgv5r7-Img" height="25" alt="Dropbox" data-testid="img" loading="lazy" src="https://res.cloudinary.com/zapier-media/image/upload/q_auto/f_auto/v1658927487/Company%20logos/Dropbox.svg" width="125" style="width:125px;height:25px;border-radius:0">
+            </div>
+            <div>
+                <img class="css-1qgv5r7-Img" height="22" alt="Asana" data-testid="img" loading="lazy" src="https://res.cloudinary.com/zapier-media/image/upload/q_auto/f_auto/v1658927462/Company%20logos/Asana.svg" width="109" style="width:109px;height:22px;border-radius:0">
+            </div>
+        </div>
+
+    <div class="vedio-2-flex">
+        <div class="vedio-2-text">
+           <div>
+               <p>
+              <span class="do">Do what you do <br class="new-line-2a"> best, <br class="new-line-2b">  </span>
+                <span class="let-zapier">
+                let Zapier do <br class="new-line-2a" id="resposive-line"> the rest  </span>
+                </p>
+           </div>
+        <div class="adust-text">
+           <div class="automation-flex">
+                <p class="automation-text">
+                    Automation for all
+                </p>
+            <div class="upward-arrow">
+                <svg width="24" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.2999L19 11.4399V8.81995L12 14.6999L5 8.81995V11.4399L12 17.2999Z" fill="#2D2E2E"></path></svg>
+            </div>
+               
+           </div>
+           <p class="automation-text-paragraph">
+            From side hustlers to enterprise leaders, <br class="new-line-p">
+             Zapier connects your work apps so you <br class="new-line-1"> get <br class="new-line-2">
+              more focus and less frustration.
+            </p>
+            <div class="hr-tag">
+                <hr class="horizetal-line1">
+            </div>
+          
+            <div class="marketing-flex">
+               <p class="marketing-head">
+                    Marketing
+              </p> 
+            
+        
+                <svg class="marketing-svg" width="24" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.2999L19 11.4399V8.81995L12 14.6999L5 8.81995V11.4399L12 17.2999Z" fill="#2D2E2E"></path></svg>
+            </div> 
+            <div class="hr-tag">
+                <hr class="horizental-line2">
+            </div>  
+            
+
+
+                  
+
+        
+            
+           <div class="marketing-flex">
+                <p class="marketing-head"> Business owner</p>    
+             <svg class="marketing-svg"  width="24" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.2999L19 11.4399V8.81995L12 14.6999L5 8.81995V11.4399L12 17.2999Z" fill="#2D2E2E"></path></svg>
+        </div>
+        <div class="hr-tag">
+                 
+        <hr class="horizental-line2">
+        </div>
+
+        <div class="marketing-flex">
+            <p class="marketing-head">
+                 IT
+           </p>    
+             <svg class="marketing-svg"  width="24" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.2999L19 11.4399V8.81995L12 14.6999L5 8.81995V11.4399L12 17.2999Z" fill="#2D2E2E"></path></svg>
+        </div>
+              <div class="hr-tag">
+                <hr class="horizental-line2">
+              </div>
+        <div class="button-padding2">
+            <button class="see-how-button">See how Zapier works</button>
+        </div>
+    </div>
+        </div>
+
+        <div class="yellow-box">
+            <div class="boxes-ceter">
+            <div class="innerbox1">
+                <div class="innerbox1-size">
+                    <img class="innerbox1-img" src="./logos/img1.png" alt="">
+                    <p class="box1-in-yellobox-text">
+                        15 new tasks
+                    </p>
+                </div>
+            </div>
+            <div class="innerbox1">
+                <div class="innerbox2-size">
+                    <img class="innerbox2-img" src="./logos/img2.webp" alt="">
+                    <p  class="boxes-text">
+                        When I'm assigned a new task
+                    </p>
+                </div>
+            </div>
+            <div class="innerbox1">
+                <div class="innerbox3-size">
+                    <img class="innerbox2-img" src="./logos/imgage3.webp" alt="">
+                    <p  class="boxes-text">
+                        Add it to my    to-do list
+                    </p>
+                </div>
+            </div>
+            <div class="innerbox1">
+                <div class="innerbox4-size">
+                    <img class="innerbox2-img" src="./logos/img4.webp" alt="">
+                    <p  class="boxes-text">
+                        Remind me he next day
+                    </p>
+                </div>
+            </div>
+            <div class="innerbox1">
+                <div class="innerbox1-size">
+                    <p class="box1-in-yellobox-text">
+                        No forgotten tasks
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div> 
+
+
+
+
+
+    
+    <div class="vedio-2-flex">
+        <div class="vedio-3-text">
+           <div>
+               <p >
+                   <span class="do">Start simple, scale to <br class="resposive-line2"> </span>   
+                    <span class="let-zapier">sophistication</span> 
+                </p>
+           </div>
+           <div class="adust-text">
+           <div class="automation-flex">
+            
+                <p class="automation-text">
+                    Multi-step workflows
+                </p>
+                <div class="upward-arrow">
+                    <svg width="24" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.2999L19 11.4399V8.81995L12 14.6999L5 8.81995V11.4399L12 17.2999Z" fill="#2D2E2E"></path></svg>
+                </div>
+                 
+            </div>
+            
+            <p class="automation-text-paragraph">
+                Create automated workflows that do more <br>
+                 than just one thing—up to 100  steps, to be <br>
+                  specific.
+            </p>
+            
+           
+          
+           <div class="hr-tag">
+            <hr class="horizetal-line1">
+           </div>
+          
+           <div class="marketing-flex">
+               <p class="marketing-head">
+                    Conditional logic
+              </p>    
+                <svg class="marketing-svg"  width="24" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.2999L19 11.4399V8.81995L12 14.6999L5 8.81995V11.4399L12 17.2999Z" fill="#2D2E2E"></path></svg>
+           </div>
+           <div class="hr-tag">
+            <hr class="horizental-line2">
+           </div>
+        
+            
+           <div class="marketing-flex">
+            <p class="marketing-head">
+                 Data formatting
+           </p>    
+             <svg  class="marketing-svg"  width="24" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.2999L19 11.4399V8.81995L12 14.6999L5 8.81995V11.4399L12 17.2999Z" fill="#2D2E2E"></path></svg>
+        </div>
+          <div class="hr-tag">
+            <hr class="horizental-line2">
+          </div>  
+
+        
+        
+        <div class="button-padding2">
+            <button class="see-how-button">Discover more features</button>
+        </div>
+    </div>
+    </div>
+    
+     
+        <div class="black-box">
+            <div class="boxes-ceter">
+            <div class="innerbox1">
+                <div class="smallboxe1-in-blackbox">
+                    <img class="innerbox2-img" src="./logos/facebook.webp" alt="">
+                    <p class="boxes-text">
+                        When I get new lead
+                    </p>
+                </div>
+            </div>
+            <div class="innerbox1">
+                <div class="smallboxe2-in-blackbox">
+                    <img class="innerbox2-img" src="./logos/img4.webp" alt="">
+                    <p class="boxes-text">
+                        Let my team know about it
+                    </p>
+                </div>
+            </div>
+            <div class="innerbox1">
+                <div class="smallboxe3-in-blackbox">
+                    <img class="innerbox2-img" src="./logos/monkey.webp" alt="">
+                    <p class="boxes-text">
+                        Add them to an email list
+                    </p>
+                </div>
+            </div>
+            <div class="innerbox1">
+                <div class="smallboxe4-in-blackbox">
+                    <img class="innerbox2-img" src="./logos/badal.webp" alt="">
+                    <p class="boxes-text">
+                        Create a new deal
+                    </p>
+                </div>
+            </div>
+            <div class="innerbox1">
+                <div class="smallboxe5-in-blackbox">
+                    <img class="innerbox2-img" src="./logos/download logo.png" alt="">
+                    <p class="boxes-text">
+                        Generate a signature request
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    </div> 
+
+                                
+
+
+        <div class="yellow-box-below-blackbox">
+           
+              <h4 class="box-heading">  This is what <br class="line-in-700"> automation feels like   </h4>
+        
+            <div class="persons-grid">
+            <div class="small-box">
+                <div class="image-name-flex">
+                <div>
+                    <img class="photos" src="./logos/girl2.webp" alt="">
+                </div>
+                <div>
+                    <p class="name1">
+                        Amandine Flachs
+                    </p>
+                    <p class="below-name">
+                        @AmandineFlachs
+                    </p>
+                </div>
+                </div>
+                <p class="about-name">
+                    Morning win: I just created my first Zap on <span class="span1">@zapier</span> 
+                </p>
+            </div>
+            <div class="small-box">
+                <div class="image-name-flex">
+                <div>
+                    <img class="photos" src="./logos/man1.webp" alt="">
+                </div>
+                <div>
+                    <p class="name1">
+                        Andrew Giambarba
+                    </p>
+                    <p class="below-name">
+                        @andymiami
+                    </p>
+                </div>
+                </div>
+                <p class="about-name">
+                    Oh<span class="span1">@zapier</span>, where have you been my entire life!?!?
+                </p>
+            </div>
+            <div class="small-box">
+                <div class="image-name-flex">
+                <div>
+                    <img class="photos" src="./logos/man2.webp" alt="">
+                </div>
+                <div>
+                    <p class="name1">
+                        Caleb Givens
+                    </p>
+                    <p class="below-name">
+                        @calebgivens
+
+                    </p>
+                </div>
+                </div>
+                <p class="about-name">
+                    .<span class="span1">@zapier</span> is like that friend you have that “has a guy” <br class="ignored-600">
+                     that can literally do just about anything.
+                </p>
+            </div>
+            <div class="small-box">
+                <div class="image-name-flex">
+                <div>
+                    <img class="photos" src="./logos/women.webp" alt="">
+                </div>
+                <div>
+                    <p class="name1">
+                        Advocitude
+                    </p>
+                    <p class="below-name">
+                        @Advocitude
+
+                    </p>
+                </div>
+                </div>
+                <p class="about-name">
+                    When you make a complex <span class="span1">@zapier</span> work and you feel <br class="ignored-600">
+                     like an absolute boss.
+                </p>
+            </div>
+            </div>
+        
+        </div>
+
+        <div class="Blue-box">                     
+             <div class="blue-box-contents">
+                  <div>
+                    <div>
+                        <p class="blue-box-head">
+                            From what if to <br class="break-not">
+                             what’s <br class="break-in-900"> next
+                        </p>
+                        <p class="blue-box-paragraph">
+                            Zapier users automate their way <br class="break-not">  
+                             to <br class="break-in-900"> awesome every day. But don’t <br id="break-700"> <br class="break-not" >
+                              take  <br class="break-in-900"> our word for it!
+                        </p>
+                         <div class="button-center-900"> <button class="button-style">
+                            Meet our cutomers
+                        </button>  </div>
+                    </div>
+                  </div>
+              <div class="another-flex-inside">    
+                  <div class="box-size">
+                    <div class="photos-box">
+                       <div>
+                        <img class="man-on-chair" src="./logos/man on page.webp" alt="">
+                       </div>
+                       
+                       <div class="absolute">
+                        <img class="small-icon" src="./logos/digioh_ljmtn3.webp" alt="">
+                       </div> 
+                       
+                        <p id="paragraph2" class="paragraph">
+                            “Zapier gives us unlimited <br class="line-not-required2">
+                             flexibility and creativity. <br class="line-not-required2">
+                              With Zapier, <br id="id-break"> you’re like an <br class="line-not-required2">
+                               artist <br class="new-line-in-900"> with a blank canvas. I <br class="line-not-required2">
+                                don’t know what we’d <br class="new-line-in-900" id="id-break"> do <br class="line-not-required2">
+                                 without it.”
+                        </p>
+                        <p class="bold-text">Rishi Shah, founder and CEO <br class="newline-in-1000">  of <br class="line-not-required">
+                             Digioh</p>
+                    </div>
+                  </div>
+
+                  <div class="box-size">
+                    <div class="photos-box">
+                       <div>
+                        <img class="image-100-000" src="./logos/10,000.webp" alt="">
+                       </div>
+                       
+                       <div class="absolute2">
+                        <img class="small-icon" src="./logos/unspun-logo.webp" alt="">
+                       </div> 
+                       
+                        <p  class="paragraph">
+                            "We've instilled into the <br class="line-not-required2">
+                             whole team that if you're <br class="line-not-required2">
+                              doing something repetitive, <br class="line-not-required2">
+                               there's probably a Zap for <br class="line-not-required2">
+                                that."
+                        </p>
+                        <p class="bold-text2">Kevin Martin, founder and CTO <br class="not-required-in-900">
+                             of unspun
+                    </div>
+                  </div>
+                </div> 
+             </div>
+        </div>
+
+
+     
+             <div class="pink-largebox">
+
+                        <div class="pink-box-justify" >
+                          <p class="pinkbox-header">
+                            As much (or as little) help as you want
+                          </p>
+                          <div class="flex-2boxes">
+                          
+                            <div class="innerbox">
+                                <div class="innerbox-contents-justify">
+                                 <p class="do-it-yourself">
+                                    Do it yourself
+                                 </p>
+                                <p class="do-it-yourself-para">
+                                    Whether you’re brand-new to <br class="innerbox-newline">
+                                     automation or looking to grow your <br  class="innerbox-newline">
+                                      skills, we make DIY doable.
+                                </p>
+                                <div class="Quick-start-flex">
+                                    <p class=" Quick-start-heading">
+                                        Quick-start guide
+                                    </p>
+                                    <svg class="arrow-symbol" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.86 11H4V13H16.86L11.82 19H14.44L20.3 12L14.44 5H11.82L16.86 11Z" fill="#ff4f00"></path></svg>
+                                </div>
+                                <hr>
+                                <div class="Community-flex">
+                                    <p class="zapier-uni-text">
+                                        Zapier University
+                                    </p>
+                                    <svg class="arrow-symbol-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.86 11H4V13H16.86L11.82 19H14.44L20.3 12L14.44 5H11.82L16.86 11Z" fill="#ff4f00"></path></svg>
+
+                                </div>
+                                <hr>
+                                <div class="Community-flex">
+
+                                    <p class=" zapier-uni-text">
+                                        Community
+                                    </p>
+                                    <svg class="arrow-symbol-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.86 11H4V13H16.86L11.82 19H14.44L20.3 12L14.44 5H11.82L16.86 11Z" fill="#ff4f00"></path></svg>
+
+                                </div>
+                                <hr>
+                                <div class="Community-flex">
+                                    <p class="zapier-uni-text">
+                                        Support
+                                    </p>
+                                    <svg class="arrow-symbol-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.86 11H4V13H16.86L11.82 19H14.44L20.3 12L14.44 5H11.82L16.86 11Z" fill="#ff4f00"></path></svg>
+
+                                </div>
+
+                                <hr>
+                            </div>
+                           </div>
+                        
+                                <div class="innerbox">
+                                    <div class="innerbox-contents-justify">
+                                    <p class="do-it-yourself">
+                                        Hire an Expert
+                                    </p>
+                                    <p class="do-it-yourself-para">
+                                        Choose a certified Zapier Expert to <br class="innerbox-newline">
+                                         help you think through and create <br class="innerbox-newline">
+                                          automated workflows.
+                                    </p>
+                                    <div class="Quick-start-flex">
+                                        <p class=" Quick-start-heading">
+                                            MercOlogy
+                                        </p>
+                                        <div class="stars-flex">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.8398 8.27998L15.7598 7.38998L13.0898 1.97998H10.9098L8.23977 7.38998L2.15977 8.27998L1.50977 10.26L5.90977 14.55L4.83977 20.78L6.39977 21.91L11.9998 18.97L17.5998 21.91L19.1598 20.78L18.0898 14.55L22.4898 10.26L21.8398 8.27998Z" fill="#ff4f00"></path></svg>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.8398 8.27998L15.7598 7.38998L13.0898 1.97998H10.9098L8.23977 7.38998L2.15977 8.27998L1.50977 10.26L5.90977 14.55L4.83977 20.78L6.39977 21.91L11.9998 18.97L17.5998 21.91L19.1598 20.78L18.0898 14.55L22.4898 10.26L21.8398 8.27998Z" fill="#ff4f00"></path></svg>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.8398 8.27998L15.7598 7.38998L13.0898 1.97998H10.9098L8.23977 7.38998L2.15977 8.27998L1.50977 10.26L5.90977 14.55L4.83977 20.78L6.39977 21.91L11.9998 18.97L17.5998 21.91L19.1598 20.78L18.0898 14.55L22.4898 10.26L21.8398 8.27998Z" fill="#ff4f00"></path></svg>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.8398 8.27998L15.7598 7.38998L13.0898 1.97998H10.9098L8.23977 7.38998L2.15977 8.27998L1.50977 10.26L5.90977 14.55L4.83977 20.78L6.39977 21.91L11.9998 18.97L17.5998 21.91L19.1598 20.78L18.0898 14.55L22.4898 10.26L21.8398 8.27998Z" fill="#ff4f00"></path></svg>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.8398 8.27998L15.7598 7.38998L13.0898 1.97998H10.9098L8.23977 7.38998L2.15977 8.27998L1.50977 10.26L5.90977 14.55L4.83977 20.78L6.39977 21.91L11.9998 18.97L17.5998 21.91L19.1598 20.78L18.0898 14.55L22.4898 10.26L21.8398 8.27998Z" fill="#ff4f00"></path></svg>
+                                        </div>
+                                        <div class="arrow-on-hover">    
+                                            <svg class="arrow-symbol-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.86 11H4V13H16.86L11.82 19H14.44L20.3 12L14.44 5H11.82L16.86 11Z" fill="#ff4f00"></path></svg>
+                                        </div>
+
+                                    </div>
+                                    <hr>
+                                    <div class="Community-flex">
+                                        <p class="zapier-uni-text">
+                                            Flow Digital
+                                        </p>
+                                        <div class="stars-flex">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.8398 8.27998L15.7598 7.38998L13.0898 1.97998H10.9098L8.23977 7.38998L2.15977 8.27998L1.50977 10.26L5.90977 14.55L4.83977 20.78L6.39977 21.91L11.9998 18.97L17.5998 21.91L19.1598 20.78L18.0898 14.55L22.4898 10.26L21.8398 8.27998Z" fill="#ff4f00"></path></svg>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.8398 8.27998L15.7598 7.38998L13.0898 1.97998H10.9098L8.23977 7.38998L2.15977 8.27998L1.50977 10.26L5.90977 14.55L4.83977 20.78L6.39977 21.91L11.9998 18.97L17.5998 21.91L19.1598 20.78L18.0898 14.55L22.4898 10.26L21.8398 8.27998Z" fill="#ff4f00"></path></svg>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.8398 8.27998L15.7598 7.38998L13.0898 1.97998H10.9098L8.23977 7.38998L2.15977 8.27998L1.50977 10.26L5.90977 14.55L4.83977 20.78L6.39977 21.91L11.9998 18.97L17.5998 21.91L19.1598 20.78L18.0898 14.55L22.4898 10.26L21.8398 8.27998Z" fill="#ff4f00"></path></svg>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.8398 8.27998L15.7598 7.38998L13.0898 1.97998H10.9098L8.23977 7.38998L2.15977 8.27998L1.50977 10.26L5.90977 14.55L4.83977 20.78L6.39977 21.91L11.9998 18.97L17.5998 21.91L19.1598 20.78L18.0898 14.55L22.4898 10.26L21.8398 8.27998Z" fill="#ff4f00"></path></svg>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.8398 8.27998L15.7598 7.38998L13.0898 1.97998H10.9098L8.23977 7.38998L2.15977 8.27998L1.50977 10.26L5.90977 14.55L4.83977 20.78L6.39977 21.91L11.9998 18.97L17.5998 21.91L19.1598 20.78L18.0898 14.55L22.4898 10.26L21.8398 8.27998Z" fill="#ff4f00"></path></svg>
+                                        </div>
+                                        <div class="arrow-on-hover">
+                                        <svg class="arrow-symbol-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.86 11H4V13H16.86L11.82 19H14.44L20.3 12L14.44 5H11.82L16.86 11Z" fill="#ff4f00"></path></svg>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="Community-flex">
+    
+                                        <p class=" zapier-uni-text">
+                                            GetUWired
+                                        </p>
+                                        <div class="stars-flex">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.8398 8.27998L15.7598 7.38998L13.0898 1.97998H10.9098L8.23977 7.38998L2.15977 8.27998L1.50977 10.26L5.90977 14.55L4.83977 20.78L6.39977 21.91L11.9998 18.97L17.5998 21.91L19.1598 20.78L18.0898 14.55L22.4898 10.26L21.8398 8.27998Z" fill="#ff4f00"></path></svg>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.8398 8.27998L15.7598 7.38998L13.0898 1.97998H10.9098L8.23977 7.38998L2.15977 8.27998L1.50977 10.26L5.90977 14.55L4.83977 20.78L6.39977 21.91L11.9998 18.97L17.5998 21.91L19.1598 20.78L18.0898 14.55L22.4898 10.26L21.8398 8.27998Z" fill="#ff4f00"></path></svg>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.8398 8.27998L15.7598 7.38998L13.0898 1.97998H10.9098L8.23977 7.38998L2.15977 8.27998L1.50977 10.26L5.90977 14.55L4.83977 20.78L6.39977 21.91L11.9998 18.97L17.5998 21.91L19.1598 20.78L18.0898 14.55L22.4898 10.26L21.8398 8.27998Z" fill="#ff4f00"></path></svg>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.8398 8.27998L15.7598 7.38998L13.0898 1.97998H10.9098L8.23977 7.38998L2.15977 8.27998L1.50977 10.26L5.90977 14.55L4.83977 20.78L6.39977 21.91L11.9998 18.97L17.5998 21.91L19.1598 20.78L18.0898 14.55L22.4898 10.26L21.8398 8.27998Z" fill="#ff4f00"></path></svg>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.8398 8.27998L15.7598 7.38998L13.0898 1.97998H10.9098L8.23977 7.38998L2.15977 8.27998L1.50977 10.26L5.90977 14.55L4.83977 20.78L6.39977 21.91L11.9998 18.97L17.5998 21.91L19.1598 20.78L18.0898 14.55L22.4898 10.26L21.8398 8.27998Z" fill="#ff4f00"></path></svg>
+                                        </div>
+                                        <div class="arrow-on-hover">
+                                        <svg class="arrow-symbol-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.86 11H4V13H16.86L11.82 19H14.44L20.3 12L14.44 5H11.82L16.86 11Z" fill="#ff4f00"></path></svg>
+                                    </div>
+                                    </div>
+                                    <hr>
+                                    <div class="Community-flex">
+                                        <p class=" zapier-uni-text">
+                                            See all Experts 
+                                        </p>
+                                           
+                                        
+                                        <svg class="arrow-symbol-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.86 11H4V13H16.86L11.82 19H14.44L20.3 12L14.44 5H11.82L16.86 11Z" fill="#ff4f00"></path></svg>
+                                
+                                    </div>
+    
+                                    <hr>
+                                </div>
+                            </div>
+                            </div>
+                                            <p class="big-header">
+                                            Find your first Zap
+                                          </p>
+                                          <div class="justify-selct-button">
+                                          <select class="select-button" name="" id="" >
+                                            <option value="">Explore by role</option>
+                                            <option value="">Marketing</option>
+                                            <option value="">Business Owner</option>
+                                            <option value="">IT</option>
+                                            <option value="">Sales</option>
+                                            <option value="">Support</option>
+                                        
+                                        </select> 
+                                          </div>
+                                    <div class="three-boxes-flex">
+                                        <div class="box-1">
+                                            <div class="justify-box">
+                                             <div class="monkey-face-flex">
+                                               <div class="image-background">   <img class="monkey" src="./logos/facebook.webp" alt="">  </div>
+                                              <div class="image-background">    <img class="monkey" src="./logos/monkey.webp" alt="">     </div>
+                                            </div>
+                                                <p class="box-texts">Add-new leads to an <br id="newline-ends"> email list</p>
+                                                <div class="try-it-now-flex">
+                                                    <p class="try-it-now">
+                                                        Try it now
+                                                    </p>
+                                                    <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.86 11H4V13H16.86L11.82 19H14.44L20.3 12L14.44 5H11.82L16.86 11Z" fill="#ff4f00"></path></svg>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                                <div class="box-1" id="box-hide-700">
+                                                    <div class="justify-box">
+                                                    <div class="monkey-face-flex">
+                                                      <div class="image-background">   <img class="monkey" src="./logos/gmail.webp" alt="">  </div>
+                                                     <div class="image-background" >    <img class="monkey" src="./logos/img2.webp" alt="">     </div>
+                                                     <div class="image-background"><img class="monkey" src="./logos/google-drive.webp" alt=""></div>
+                                                   </div>
+                                                       <p class="box-texts">Save-email <br  id="newline-ends">
+                                                         attachments to <br id="newline-ends">
+                                                          Google Drive</p>
+                                                       <div class="try-it-now-flex">
+                                                           <p class="try-it-now">
+                                                               Try it now
+                                                           </p>
+                                                           <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.86 11H4V13H16.86L11.82 19H14.44L20.3 12L14.44 5H11.82L16.86 11Z" fill="#ff4f00"></path></svg>
+                                                        </div>
+                                                       </div>
+                                              </div>
+                                                       <div class="box-1" id="box-display-none">
+                                                        <div class="justify-box">
+                                                        <div class="monkey-face-flex">
+                                                          <div class="image-background">   <img class="monkey" src="./logos/files.webp" alt="">  </div>
+                                                         <div class="image-background">    <img class="monkey" src="./logos/white.webp" alt="">     </div>
+                                                       </div>
+                                                           <p class="box-texts">Create-Trello cards <br>
+                                                             for new form <br> responses</p>
+                                                           <div class="try-it-now-flex">
+                                                               <p class="try-it-now">
+                                                                   Try it now
+                                                               </p>
+                                                               <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.86 11H4V13H16.86L11.82 19H14.44L20.3 12L14.44 5H11.82L16.86 11Z" fill="#ff4f00"></path></svg>
+                                                            </div>
+                                                           </div>
+                                                       </div>
+
+                                        </div>
+                                    </div>
+                                       <div class="button-center-explore ">
+                                        <button class="Explore-more-Zaps-button">Explore more Zaps by job role</button>
+                                        <button class="load-more-button">Load more</button>
+                                       </div> 
+
+                          </div>
+                        </div>
+
+                        <div class="center-the-text">
+                            <div class="logos-portion-flex">
+                                  <div class="text-portion">
+                                    <p class="header1">
+                                        <span class="span">5,000+ apps,</span>
+                                        infinite <br class="linehide-in-900"> possibilities
+                                    </p>
+                                    <p class="header1-para">
+                                        Zapier supports more apps than <br  class="linehide-in-900">
+                                         any other platform, so you can <br  class="linehide-in-900">
+                                          connect the tools you  use today—  <br  class="linehide-in-900">
+                                           and tomorrow.
+                                    </p>
+                                    <div class="padding-explorebyapp">
+                                        <button class="Explore-by-app-button">  Explore by app    </button>
+                                    </div>
+                                  </div>
+                                  <div class="logo-in-column">
+                                    <div class="logo-line1">
+                                        <div class="image-background">
+                                              <img class="gmail-size" src="./logos/gmail1.webp" alt="">
+                                        </div>
+                                        <div  class="image-background">
+                                             <img class="logo1" src="./logos/monkey.webp" alt="">
+                                        </div>
+                                        <div  class="image-background">
+                                            <img  class="gmail-size" src="./logos/vedio.webp" alt="">
+                                        </div>
+                                        <div class="image-background">
+                                            <img  class="gmail-size" src="./logos/google-drive.webp" alt="">
+                                        </div>
+                                        <div class="image-background">
+                                             <img class="logo1" src="./logos/-logo.avif" alt="">
+                                        </div>
+                                        <div  class="image-background" id="hide-logo">
+                                            <img class="gmail-size" src="./logos/discord.avif" alt="">
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="logo-line1">
+                                        <div class="image-background">
+                                            <img class="badal" src="./logos/s-bag.webp" alt="">
+                                      </div>
+                                      <div  class="image-background">
+                                           <img class="badal" src="./logos/white.webp" alt="">
+                                      </div>
+                                      <div  class="image-background">
+                                          <img class="badal" src="./logos/s-icon.webp" alt="">
+                                      </div>
+                                      <div class="image-background">
+                                          <img class="badal" src="./logos/badal.webp" alt="">
+                                      </div>
+                                      <div  class="image-background">
+                                        <img class="badal" src="./logos/oval.avif" alt="">
+                                      </div>
+                                      <div class="image-background" id="hide-logo">
+                                        <img class="badal"  src="./logos/n doce.avif" alt="">
+                                      </div>
+                                    </div>
+                                    <div class="logo-line1">
+                                        <div class="image-background">
+                                            <img class="logo2" src="./logos/img4.webp" alt="">
+                                      </div>
+                                      <div  class="image-background">
+                                           <img class="logo2" src="./logos/asana.webp" alt="">
+                                      </div>
+                                      <div  class="image-background">
+                                          <img class="logo2" src="./logos/img2.webp" alt="">
+                                      </div>
+                                      <div class="image-background">
+                                          <img class="logo2" src="./logos/imgage3.webp" alt="">
+                                      </div>
+                                      <div class="image-background">
+                                        <img  class="logo2" src="./logos/blue icon.avif" alt="">
+                                      </div>
+                                      <div class="image-background" id="hide-logo">
+                                        <img class="logo2" src="./logos/w.avif" alt="">
+                                      </div>
+                                    </div>
+                                    <div class="logo-line1">
+                                        <div class="image-background">
+                                            <img class="logo2" src="./logos/files.webp" alt="">
+                                      </div>
+                                      <div  class="image-background">
+                                           <img class="logo2" src="./logos/connect.webp" alt="">
+                                      </div>
+                                      <div  class="image-background">
+                                          <img class="logo2" src="./logos/facebook.webp" alt="">
+                                      </div>
+                                      <div class="image-background">
+                                          <img class="logo2" src="./logos/box.webp" alt="">
+                                      </div>
+                                      <div  class="image-background" >
+                                        <img class="logo2" src="./logos/yellow-dowload.avif" alt="">
+                                      </div>
+                                
+                                      <div  class="image-background" id="hide-logo"> 
+                                        <img class="logo2" src="./logos/p-icon.avif" alt="">
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>                             
+                                    
+                                                               
+                                    <div class="orange-box">
+                                        <p class="A-plan-heading">
+                                            A plan to fit your needs
+                                        </p>
+                                    <div class="flex-boxes">  
+                                        <div class="box-inner">
+                                            <div class="allign-box">
+                                               <div class="svg">
+                                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 18C14.76 18 17 15.76 17 13H7C7 15.76 9.24 18 12 18Z" fill="#2D2E2E"></path><path d="M8.5 11.25C9.4665 11.25 10.25 10.4665 10.25 9.5C10.25 8.5335 9.4665 7.75 8.5 7.75C7.5335 7.75 6.75 8.5335 6.75 9.5C6.75 10.4665 7.5335 11.25 8.5 11.25Z" fill="#2D2E2E"></path><path d="M15.5 11.25C16.4665 11.25 17.25 10.4665 17.25 9.5C17.25 8.5335 16.4665 7.75 15.5 7.75C14.5335 7.75 13.75 8.5335 13.75 9.5C13.75 10.4665 14.5335 11.25 15.5 11.25Z" fill="#2D2E2E"></path><path d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" fill="#2D2E2E"></path></svg>
+                                               </div>
+                                                <p class="free-forever-heading">
+                                                Free forever
+                                            </p>
+                                            <p class="pg">
+                                                Just getting started? <br class="newline-hide">
+                                                 Explore basic Zapier <br class="newline-hide">
+                                                  features for <br id="break"> free.
+                                            </p>
+                                            <div class="try-it-free-center900">
+                                            <button class="orange-button">Try it free
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.86 11H4V13H16.86L11.82 19H14.44L20.3 12L14.44 5H11.82L16.86 11Z" fill="#fffdf9"></path></svg>
+                                            </button></div>
+                                        </div>
+                                        </div>
+
+                                        <div class="box-inner">
+                                            <div class="allign-box">
+                                                <div class="svg">
+                                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 6H17.47L14.95 3H9.05L6.53 6H2V8H20V14H13V12H11V14H4V10H2V21H22V6ZM9.14 6L9.98 5H14.01L14.85 6H9.14ZM20 19H4V16H11V17H13V16H20V19Z" fill="#2D2E2E"></path></svg>
+                                               </div>
+                                                <p class="free-forever-heading">
+                                                Professional
+                                            </p>
+                                            <p class="pg">
+                                                Ready to level up? Unlock <br  class="newline-hide">
+                                                 powerful features with a <br class="break2">
+                                                  Professional plan.
+                                            </p>
+                                            <div class="try-it-free-center900">
+                                            <button class="orange-button">Try it free
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.86 11H4V13H16.86L11.82 19H14.44L20.3 12L14.44 5H11.82L16.86 11Z" fill="#fffdf9"></path></svg>
+                                            </button></div>
+                                        </div>
+                                        </div>
+
+                                        <div class="box-inner">
+                                            <div class="allign-box">
+                                                <div class="svg">
+                                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.0002 2C7.53017 2 3.74017 4.95 2.46017 9H4.59017C5.42017 6.96 7.07017 5.34 9.13017 4.54L6.78017 11H2.05017C1.46017 16.89 6.10017 22 12.0002 22C17.5102 22 22.0002 17.51 22.0002 12C22.0002 6.49 17.5102 2 12.0002 2ZM11.4402 4.03C12.0102 3.99 12.0102 3.99 12.5302 4.03L15.0702 11H8.90017L11.4402 4.03ZM4.07017 13H6.78017L9.13017 19.46C6.43017 18.41 4.44017 15.96 4.07017 13ZM11.4402 19.97L8.90017 13H15.0702L12.5302 19.97C12.0202 20.01 12.0102 20.01 11.4402 19.97ZM14.8502 19.47L17.2002 13H19.9302C19.5602 15.97 17.5502 18.43 14.8502 19.47ZM17.2002 11L14.8502 4.53C17.5602 5.57 19.5602 8.03 19.9302 11H17.2002Z" fill="#2D2E2E"></path></svg>
+                                               </div>
+                                                <p class="free-forever-heading">
+                                                Teams and <br class="newline-hide">
+                                                 Companies
+                                            </p>
+                                            <p class="pg">
+                                                Need to automate across <br class="newline-hide">
+                                                 your organization? Check <br class="newline-hide">
+                                                  out <br id="break">    our enterprise plans.
+                                            </p>
+                                            <div class="try-it-free-center900">
+                                            <button class="orange-button">Learn more
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.86 11H4V13H16.86L11.82 19H14.44L20.3 12L14.44 5H11.82L16.86 11Z" fill="#fffdf9"></path></svg>
+                                            </button></div>
+                                        </div>
+                                        </div>
+                                    </div>      
+                                    </div>
+
+                        
+                                     <div class="center-text">
+                                         <p class="Apps-by-Title">  Apps by Title</p>
+                                     </div>
+                                     <div class="alphabets-center">
+                                        <p class="alphabets">
+                                            <span class="a-z-hover">0–9</span>  <span class="a-z-hover">A</span> <span class="a-z-hover">B</span> <span class="a-z-hover">C</span> <span class="a-z-hover">D</span> <span class="a-z-hover">E</span> 
+                                            <span class="a-z-hover">E</span> <span class="a-z-hover">F</span> <span class="a-z-hover">G</span> <span class="a-z-hover">H</span> <span class="a-z-hover">I</span> <span class="a-z-hover">J</span>   
+                                            <span class="a-z-hover">K</span> <span class="a-z-hover">L</span> <span class="a-z-hover">M</span> <span class="a-z-hover">N</span> <span class="a-z-hover">O</span> 
+                                            <span class="a-z-hover">P</span> <span class="a-z-hover">Q</span> <span class="a-z-hover">R</span> <span class="a-z-hover">S</span> <span class="a-z-hover">T</span> <span class="a-z-hover">U</span> 
+                                            <span class="a-z-hover">V</span> <span class="a-z-hover">W</span> <span class="a-z-hover">X</span> <span class="a-z-hover">Y</span> <span class="a-z-hover">Z</sp>
+                                        </p>
+                                     </div>
+
+                                     <div class="lists">
+                                          <div class="list1">
+                                            <p class="Top-Searches">Top Searches</p>
+                                            <ul class="list-items">
+                                                <li class="item1">Slack Integrations</li>
+                                                <li class="item1">Salesforce Integrations</li>
+                                                <li class="item1">HubSpot CRM</li>
+                                                <li class="item1">Integrations</li>
+                                                <li class="item1">PayPal Integrations</li>
+                                                <li class="item1">Asana Integrations</li>
+                                                <li class="show-more">Show more</li>
+                                            </ul>
+                                          </div>
+                                          <div class="list1">
+                                            <p class="Top-Searches">Popular Apps</p>
+                                            <ul class="list-items">
+                                                <li class="item1">Dropbox</li>
+                                                <li class="item1">Google Sheets</li>
+                                                <li class="item1">DocuSign</li>
+                                                <li class="item1">WordPress</li>
+                                                <li class="item1">Office 365</li>
+                                                <li class="show-more">Show more</li>
+                                            </ul>
+                                          </div>
+                                          <div class="list1">
+                                            <p class="Top-Searches">Trending Apps</p>
+                                            <ul class="list-items">
+                                                <li class="item1">Twitch</li>
+                                                <li class="item1">Printful</li>
+                                                <li class="item1">Microsoft To-Do</li>
+                                                <li class="item1">Microsoft Outlook</li>
+                                                <li class="item1">Medium</li>
+                                                <li class="show-more">Show more</li>
+                                            </ul>
+                                          </div>
+                                          <div class="list1">
+                                            <p class="Top-Searches">Top Apps by Category</p>
+                                            <ul class="list-items">
+                                                <li class="item1">Project Management</li>
+                                                <li class="item1">Calendar</li>
+                                                <li class="item1">Email</li>
+                                                <li class="item1">CRM (Customer <br> Relationship <br> Management)</li>
+                                                <li class="item1">Marketing Automation</li>
+                                                <li class="show-more">Show more</li>
+                                            </ul>
+                                          </div>
+                                          <div class="list1">
+                                            <p class="Top-Searches">Our Best Content</p>
+                                            <ul class="list-items">
+                                                <li class="item1">Best Video Conferencing <br> Apps</li>
+                                                <li class="item1">Best Email Apps</li>
+                                                <li class="item1">Best CRM Apps</li>
+                                                <li class="item1">Best Note Taking Apps</li>
+                                                <li class="item1">Best Calendar Apps</li>
+                                                <li class="show-more">Show more</li>
+                                            </ul>
+                                          </div>
+                                     </div>
+
+
+
+                                     <div class="last-flex">
+                                            <div class="social-media-flex">
+                                                <p class="Follow-us">Follow us</p>
+                                                <div class="last-logo1">
+                                                                     <img class="facebook-svg"  src="./logos/facebook.svg" alt="">
+                                                </div>
+                                            
+                                                      
+                                            
+                                                <div class="last-logo2">
+                                                    <img class="linkedin-svg"  src="./logos/linkedin.svg" alt="">
+                                                </div>
+                                                <div class="last-logo3">
+                                                    <img class="wifi-svg"  src="./logos/wifi.svg" alt="">
+                                                </div>
+                                                <div class="last-logo4">
+                                                    <img class="twitter-svg" src="./logos/twitter2.svg" alt="">
+                                                </div>
+                                                <div  class="last-logo5">
+                                                    <img class="youtube-svg" src="./logos/youtube.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="last-small-headinks">
+                                                <p class="heading-1">Pricing</p>
+                                                <p class="heading-1">Help</p>
+                                                <p class="heading-1">Developer Platform</p>
+                                                <p class="heading-1">Press</p>
+                                                <p class="heading-1">Jobs</p>
+                                                <p class="heading-1">Zapier for Companies</p>
+
+                                                <p class="heading-1">Transfer</p>
+                                            </div>
+                                     </div>
+                                <div class="zapier-text-flex">
+                                     <div>
+                                        <div class="zapier-last">
+                                            <svg class="zapier-size-last" width="105" height="28" data-testid="ZapierLogo" viewBox="0 0 244 66" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg" class="css-tyvwmd-ZapierLogo">
+                                                <path
+                                                    d="M57.1877 45.2253L57.1534 45.1166L78.809 25.2914V15.7391H44.0663V25.2914H64.8181L64.8524 25.3829L43.4084 45.2253V54.7775H79.1579V45.2253H57.1877Z"
+                                                    fill="#201515"></path>
+                                                <path
+                                                    d="M100.487 14.8297C96.4797 14.8297 93.2136 15.434 90.6892 16.6429C88.3376 17.6963 86.3568 19.4321 85.0036 21.6249C83.7091 23.8321 82.8962 26.2883 82.6184 28.832L93.1602 30.3135C93.5415 28.0674 94.3042 26.4754 95.4482 25.5373C96.7486 24.5562 98.3511 24.0605 99.9783 24.136C102.118 24.136 103.67 24.7079 104.634 25.8519C105.59 26.9959 106.076 28.5803 106.076 30.6681V31.7091H95.9401C90.7807 31.7091 87.0742 32.8531 84.8206 35.1411C82.5669 37.429 81.442 40.4492 81.4458 44.2014C81.4458 48.0452 82.5707 50.9052 84.8206 52.7813C87.0704 54.6574 89.8999 55.5897 93.3089 55.5783C97.5379 55.5783 100.791 54.1235 103.067 51.214C104.412 49.426 105.372 47.3793 105.887 45.2024H106.27L107.723 54.7546H117.275V30.5651C117.275 25.5659 115.958 21.6936 113.323 18.948C110.688 16.2024 106.409 14.8297 100.487 14.8297ZM103.828 44.6475C102.312 45.9116 100.327 46.5408 97.8562 46.5408C95.8199 46.5408 94.4052 46.1843 93.6121 45.4712C93.2256 45.1338 92.9182 44.7155 92.7116 44.246C92.505 43.7764 92.4043 43.2671 92.4166 42.7543C92.3941 42.2706 92.4702 41.7874 92.6403 41.3341C92.8104 40.8808 93.071 40.4668 93.4062 40.1174C93.7687 39.7774 94.1964 39.5145 94.6633 39.3444C95.1303 39.1743 95.6269 39.1006 96.1231 39.1278H106.093V39.7856C106.113 40.7154 105.919 41.6374 105.527 42.4804C105.134 43.3234 104.553 44.0649 103.828 44.6475Z"
+                                                    fill="#201515"></path>
+                                                <path d="M175.035 15.7391H163.75V54.7833H175.035V15.7391Z" fill="#201515"></path>
+                                                <path
+                                                    d="M241.666 15.7391C238.478 15.7391 235.965 16.864 234.127 19.1139C232.808 20.7307 231.805 23.1197 231.119 26.2809H230.787L229.311 15.7391H219.673V54.7775H230.959V34.7578C230.959 32.2335 231.55 30.2982 232.732 28.9521C233.914 27.606 236.095 26.933 239.275 26.933H243.559V15.7391H241.666Z"
+                                                    fill="#201515"></path>
+                                                <path
+                                                    d="M208.473 17.0147C205.839 15.4474 202.515 14.6657 198.504 14.6695C192.189 14.6695 187.247 16.4675 183.678 20.0634C180.108 23.6593 178.324 28.6166 178.324 34.9352C178.233 38.7553 179.067 42.5407 180.755 45.9689C182.3 49.0238 184.706 51.5592 187.676 53.2618C190.665 54.9892 194.221 55.8548 198.344 55.8586C201.909 55.8586 204.887 55.3095 207.278 54.2113C209.526 53.225 211.483 51.6791 212.964 49.7211C214.373 47.7991 215.42 45.6359 216.052 43.3377L206.329 40.615C205.919 42.1094 205.131 43.4728 204.041 44.5732C202.942 45.6714 201.102 46.2206 198.521 46.2206C195.451 46.2206 193.163 45.3416 191.657 43.5837C190.564 42.3139 189.878 40.5006 189.575 38.1498H216.201C216.31 37.0515 216.367 36.1306 216.367 35.387V32.9561C216.431 29.6903 215.757 26.4522 214.394 23.4839C213.118 20.7799 211.054 18.5248 208.473 17.0147ZM198.178 23.9758C202.754 23.9758 205.348 26.2275 205.962 30.731H189.775C190.032 29.2284 190.655 27.8121 191.588 26.607C193.072 24.8491 195.268 23.972 198.178 23.9758Z"
+                                                    fill="#201515"></path>
+                                                <path
+                                                    d="M169.515 0.00366253C168.666 -0.0252113 167.82 0.116874 167.027 0.421484C166.234 0.726094 165.511 1.187 164.899 1.77682C164.297 2.3723 163.824 3.08658 163.512 3.87431C163.2 4.66204 163.055 5.50601 163.086 6.35275C163.056 7.20497 163.201 8.05433 163.514 8.84781C163.826 9.64129 164.299 10.3619 164.902 10.9646C165.505 11.5673 166.226 12.0392 167.02 12.3509C167.814 12.6626 168.663 12.8074 169.515 12.7762C170.362 12.8082 171.206 12.6635 171.994 12.3514C172.782 12.0392 173.496 11.5664 174.091 10.963C174.682 10.3534 175.142 9.63077 175.446 8.83849C175.75 8.04621 175.89 7.20067 175.859 6.35275C175.898 5.50985 175.761 4.66806 175.456 3.88115C175.151 3.09424 174.686 2.37951 174.09 1.78258C173.493 1.18565 172.779 0.719644 171.992 0.414327C171.206 0.109011 170.364 -0.0288946 169.521 0.00938803L169.515 0.00366253Z"
+                                                    fill="#201515"></path>
+                                                <path
+                                                    d="M146.201 14.6695C142.357 14.6695 139.268 15.8764 136.935 18.2902C135.207 20.0786 133.939 22.7479 133.131 26.2981H132.771L131.295 15.7563H121.657V66H132.942V45.3054H133.354C133.698 46.6852 134.181 48.0267 134.795 49.3093C135.75 51.3986 137.316 53.1496 139.286 54.3314C141.328 55.446 143.629 56.0005 145.955 55.9387C150.68 55.9387 154.277 54.0988 156.748 50.419C159.219 46.7392 160.455 41.6046 160.455 35.0153C160.455 28.6509 159.259 23.6689 156.869 20.0691C154.478 16.4694 150.922 14.6695 146.201 14.6695ZM147.345 42.9602C146.029 44.8668 143.97 45.8201 141.167 45.8201C140.012 45.8735 138.86 45.6507 137.808 45.1703C136.755 44.6898 135.832 43.9656 135.116 43.0574C133.655 41.2233 132.927 38.7122 132.931 35.5243V34.7807C132.931 31.5432 133.659 29.0646 135.116 27.3448C136.572 25.625 138.59 24.7747 141.167 24.7937C144.02 24.7937 146.092 25.6994 147.385 27.5107C148.678 29.322 149.324 31.8483 149.324 35.0896C149.332 38.4414 148.676 41.065 147.356 42.9602H147.345Z"
+                                                    fill="#201515"></path>
+                                                <path d="M39.0441 45.2253H0V54.789H39.0441V45.2253Z" fill="#FF4F00"></path>
+                                            </svg>
+                                        </div>
+                                     </div>
+                                     <div class="flex-last-corner-text">
+                                        <div>
+                                        <p class="style-text1">
+                                            © 2023  Zapier Inc.
+                                        </p></div>
+                                        <div class="hover1">
+                                        <p class="style-text">
+                                            Manage cookies
+                                        </p></div>
+                                        <div class="hover1">
+                                        <p class="legal">
+                                            Legal
+                                        </p></div>
+                                        <div class="hover1">
+                                        <p class="style-text">
+                                            Privacy
+                                        </p></div>
+                                     </div>
+                                </div>     
+    </div>
+</body>
+
+</html>
